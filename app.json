@@ -4,7 +4,7 @@
     "slug": "Quize_App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/mainlogo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/mainlogo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pratee_k7.Quize_App"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c1d9dc7e-66f7-4b8c-a7b0-0a99be3d5eb9"
+      }
     }
   }
 }
